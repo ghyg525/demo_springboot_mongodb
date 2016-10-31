@@ -1,7 +1,11 @@
 
-##服务配置
-server:
-  port: 8080
+## mogodb配置 org.springframework.boot.autoconfigure.mongo.MongoProperties
+spring: 
+  data: 
+    mongodb:  
+      host: 192.168.125.10
+      port: 27017
+      database: test
 
 
 ##日志配置

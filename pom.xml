@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.yangjie</groupId>
-	<artifactId>springboot</artifactId>
+	<artifactId>springboot-mogodb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
-	<name>demo_springboot</name>
+	<name>springboot-mogodb</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -24,12 +24,9 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
-		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -52,5 +49,13 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
+	<repositories>
+		<repository>
+			<id>moko</id>
+			<name>moko</name>
+			<url>http://maven.moko.io/content/repositories/public</url>
+		</repository>
+	</repositories>
+	
 </project>
