@@ -34,7 +34,7 @@ public class UserServiceTest {
 		user = userService.getByUsername("1");
 		System.out.println(user.getTypeList());
 		
-		userService.delete(user);
+		userService.delete(user.getUserid());
 		
 	}
 	
