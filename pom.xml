@@ -50,12 +50,4 @@
 		</plugins>
 	</build>
 	
-	<repositories>
-		<repository>
-			<id>moko</id>
-			<name>moko</name>
-			<url>http://maven.moko.io/content/repositories/public</url>
-		</repository>
-	</repositories>
-	
 </project>
